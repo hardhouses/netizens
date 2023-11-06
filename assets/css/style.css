@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@700&display=swap');
+
+
 :root {
   --primary-color: #219ebc;
   --secondary-color: #8ecae6;
@@ -91,14 +94,14 @@ h6,
 }
 
 #header .logo h1 {
-  font-size: 30px;
+  font-family: 'League Spartan', sans-serif;
+  font-size: 40px;
   margin: 0;
   line-height: 1;
-  font-weight: 400;
-  letter-spacing: 2px;
+  letter-spacing: -2px;
+  color: var(--highlight-color);
 }
 
-#header .logo h1 a,
 #header .logo h1 a:hover {
   color: var(--deep-blue-color);
   text-decoration: none;
@@ -1174,6 +1177,10 @@ section.course-details {
 #footer .footer-top .footer-links ul a:hover {
   text-decoration: none;
   color: var(--highlight-color);
+}
+
+#footer .footer-top .footer-links p {
+  color: #5a6570;
 }
 
 #footer .footer-top .social-links a {
